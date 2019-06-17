@@ -8,34 +8,34 @@ pygame.display.set_caption('Llama Game!')
 clock = pygame.time.Clock()
 # ======================================================================================================================
 # Loading images to use for the game.
-icon = pygame.image.load('SS_R_Icon.png')
+icon = pygame.image.load('assets/SS_R_Icon.png')
 pygame.display.set_icon(icon)
 
-Machu_Picchu = pygame.image.load('Machu_Picchu.gif')
-Play_button = pygame.image.load('Play_button.png')
+Machu_Picchu = pygame.image.load('assets/Machu_Picchu.gif')
+Play_button = pygame.image.load('assets/Play_button.png')
 
-llama_left = pygame.image.load('llama_left.png') # Size is 110x110
-llama_right = pygame.image.load('llama_right.png') # Size is 110x110
-llama_mid = pygame.image.load('llama_mid.png') # Size is 110x110
+llama_left = pygame.image.load('assets/llama_left.png') # Size is 110x110
+llama_right = pygame.image.load('assets/llama_right.png') # Size is 110x110
+llama_mid = pygame.image.load('assets/llama_mid.png') # Size is 110x110
 
-spit_right = pygame.image.load('spit_right.png') # Size is 62x56
-spit_left = pygame.image.load('spit_left.png') # Size is 62x56
+spit_right = pygame.image.load('assets/spit_right.png') # Size is 62x56
+spit_left = pygame.image.load('assets/spit_left.png') # Size is 62x56
 
-spit_sound = pygame.mixer.Sound('spit_3.wav')
-slap_sound = pygame.mixer.Sound('slap.wav')
-llama_sound = pygame.mixer.Sound('oorgle.wav')
+spit_sound = pygame.mixer.Sound('assets/spit_3.wav')
+slap_sound = pygame.mixer.Sound('assets/slap.wav')
+llama_sound = pygame.mixer.Sound('assets/oorgle.wav')
 
 # Link to song: https://musiclab.chromeexperiments.com/Song-Maker/song/6752443683569664
-# pygame.mixer.music.load('Piano_Conga.wav')
-# pygame.mixer.music.load('Strings_Conga.wav')
-# pygame.mixer.music.load('Synth_Conga.wav')
-pygame.mixer.music.load('Marimba_Conga.wav')
+# pygame.mixer.music.load('assets/Piano_Conga.wav')
+# pygame.mixer.music.load('assets/Strings_Conga.wav')
+# pygame.mixer.music.load('assets/Synth_Conga.wav')
+pygame.mixer.music.load('assets/Marimba_Conga.wav')
 pygame.mixer.music.play(-1)
 
-Sasan_R = pygame.image.load('SS_R.png') # Size is 131x134
-Sasan_L = pygame.image.load('SS_L.png') # Size is 131x134
-A_Sasan_R = pygame.image.load('SS_A_R.png') # Size is 131x134
-A_Sasan_L = pygame.image.load('SS_A_L.png') # Size is 131x134
+Sasan_R = pygame.image.load('assets/SS_R.png') # Size is 131x134
+Sasan_L = pygame.image.load('assets/SS_L.png') # Size is 131x134
+A_Sasan_R = pygame.image.load('assets/SS_A_R.png') # Size is 131x134
+A_Sasan_L = pygame.image.load('assets/SS_A_L.png') # Size is 131x134
 #=======================================================================================================================
 class PLAYER():
     def __init__(self, x, y, width, height):
